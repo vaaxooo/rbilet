@@ -1,0 +1,40 @@
+
+@import url("https://ros-bilet.ru/modules/system/system.base.css?rvetlp");
+@import url("https://ros-bilet.ru/modules/system/system.menus.css?rvetlp");
+@import url("https://ros-bilet.ru/modules/system/system.messages.css?rvetlp");
+@import url("https://ros-bilet.ru/modules/system/system.theme.css?rvetlp");
+
+@import url("https://ros-bilet.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.datepicker.min.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.menu.min.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.autocomplete.min.css?rvetlp");
+
+@import url("https://ros-bilet.ru/sites/all/modules/comment_notify/comment_notify.css?rvetlp");
+@import url("https://ros-bilet.ru/modules/comment/comment.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/date/date_api/date.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?rvetlp");
+@import url("https://ros-bilet.ru/modules/field/theme/field.css?rvetlp");
+@import url("https://ros-bilet.ru/modules/node/node.css?rvetlp");
+@import url("https://ros-bilet.ru/modules/user/user.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/views/css/views.css?rvetlp");
+
+@import url("https://ros-bilet.ru/sites/all/modules/ckeditor/ckeditor.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/libraries/colorbox/example1/colorbox.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/modules/ctools/css/ctools.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/themes/rosbilet/css/csas_dtmp.css?rvetlp");
+@import url("https://ros-bilet.ru/sites/all/themes/rosbilet/css/csas_juau_term.css?rvetlp");
+
+@import url("https://ros-bilet.ru/sites/all/themes/rosbilet/css/style.css?rvetlp");
+
+@import url("//ros-bilet.ru/sites/all/themes/rosbilet/css/block/3.css");
+
+div#__nuxt {
+    height: 100%;
+    min-height: 100%!important;
+}
+
+div#__layout {
+    height: 100%;
+    min-height: 100%!important;
+}
