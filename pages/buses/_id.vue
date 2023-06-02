@@ -91,11 +91,7 @@
                                             </div>
                                         </div>
                                         <div id="st3">
-                                            <a href="//ros-bilet.ru/order/step1.php?route_nid=8744726" rel="nofollow" class="btn_blue mobile_fixed">Забронировать</a>
-                                            <script type="text/javascript">
-                                                jQuery(document).ready(function($) {
-                                                            $('#block-block-57 ul').append(" < li > < a href = '//ros-bilet.ru/order/step1.php?route_nid=8744726' > Забронировать билет < /a> < /li>"); }); 
-                                            </script>
+                                            <a :href="'/order?flightId=' + flight.id + '&date=' + $route.query.date" rel="nofollow" class="btn_blue mobile_fixed">Забронировать</a>
                                         </div>
                                     </div>
                                 </div>

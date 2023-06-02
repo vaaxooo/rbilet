@@ -4,9 +4,9 @@
 
             <div class="like-content">
                 <div class="inside">
-                    <div class="logo-place w50">                      
-                      <div class="logo"></div>                    
-                    </div>
+                    <a href="/" class="logo-place w50">                      
+                        <div class="logo"></div>                    
+                    </a>
                     <div class="navi_top w50 no-mobile">
                       <ul class="nav_top"><li><a href="/help">Помощь</a></li>
                         <li><a href="/garant">Гарантии</a></li>

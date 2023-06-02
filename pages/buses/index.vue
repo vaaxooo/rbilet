@@ -69,7 +69,7 @@
                                                 </td>
                                                 <td class="views-field views-field-path">
                                                     <div class="path_to_route">
-                                                        <a :href="'/buses/' + flight.id">Подробно о рейсе&gt;&gt;</a>
+                                                        <a :href="'/buses/' + flight.id + '?date=' + $route.query.date">Подробно о рейсе&gt;&gt;</a>
                                                     </div>
                                                 </td>
                                             </tr>
