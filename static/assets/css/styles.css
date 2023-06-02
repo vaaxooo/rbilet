@@ -38,3 +38,181 @@ div#__layout {
     height: 100%;
     min-height: 100%!important;
 }
+
+
+
+.star {
+    color: #f0ad4e;
+    font-size: 16px;
+}
+
+.star:hover {
+    color: #f0ad4e;
+}
+
+
+input.mx-input {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: block;
+    float: right;
+    padding: 8px 0;
+    text-indent: 8px;
+    width: 100%;
+    max-width: 110px;
+    border-radius: 3px;
+    border: 1px solid #BEBAB3;
+    background: #fefcf8;
+    background: -moz-linear-gradient(top, #fefcf8 0%, #f5f2eb 48%, #efece5 72%, #ebe8e1 100%);
+    background: -webkit-linear-gradient(top, #fefcf8 0%,#f5f2eb 48%,#efece5 72%,#ebe8e1 100%);
+    background: linear-gradient(to bottom, #fefcf8 0%,#f5f2eb 48%,#efece5 72%,#ebe8e1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcf8', endColorstr='#ebe8e1',GradientType=0 );
+}
+
+i.mx-icon-calendar {
+    display: none;
+}
+.mx-datepicker-main {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .mx-calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .mx-btn {
+    display: inline-block;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mx-btn:hover {
+    background-color: #ebebeb;
+  }
+  
+  .mx-calendar-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mx-date-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mx-date-row .cell {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .mx-date-row .cell:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .mx-date-row .cell.today {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .mx-date-row .cell.not-current-month {
+    color: #ccc;
+  }
+  
+  .mx-date-row .cell div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .mx-calendar-header .mx-btn-current-month,
+  .mx-calendar-header .mx-btn-current-year {
+    display: inline-block;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mx-calendar-header .mx-btn-current-month:hover,
+  .mx-calendar-header .mx-btn-current-year:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .mx-calendar-panel-year {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .mx-calendar-panel-year:hover .mx-select-arrow {
+    border-top-color: #333;
+  }
+  
+  .mx-calendar-panel-year .mx-select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    border-color: #999 transparent transparent transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+
+
+  .mx-btn {
+    display: inline-block;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mx-btn:hover {
+    background-color: #ebebeb;
+  }
+  
+  .mx-btn-current-month,
+  .mx-btn-current-year {
+    display: inline-block;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mx-btn-current-month:hover,
+  .mx-btn-current-year:hover {
+    background-color: #f2f2f2;
+  }
+  

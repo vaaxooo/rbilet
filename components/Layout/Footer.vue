@@ -17,7 +17,7 @@
                                     <div class="content">
                                         <ul class="menu clearfix">
                                             <li class="first leaf"><a href="/perevozchiki" title="">перевозчики</a></li>
-                                            <li class="last leaf"><a href="/avtovokzaly" title="">автовокзалы</a></li>
+                                            <!-- <li class="last leaf"><a href="/avtovokzaly" title="">автовокзалы</a></li> -->
                                         </ul>
                                     </div>
                                 </div>

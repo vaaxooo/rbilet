@@ -11,7 +11,7 @@
                       <ul class="nav_top"><li><a href="/help">Помощь</a></li>
                         <li><a href="/garant">Гарантии</a></li>
                         <li><a href="/reviews">Отзывы</a></li>
-                        <li><a href="/avtovokzaly">Автовокзалы</a></li>
+                        <!-- <li><a href="/avtovokzaly">Автовокзалы</a></li> -->
                         <li><a href="/perevozchiki">Перевозчики</a></li>
                         <li><a href="/contacts">Контакты</a></li>
                         </ul>                    
