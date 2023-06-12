@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'frontend',
+    title: 'Рос-Билет ру — расписание автобусов, продажа электронных билетов по ценам перевозчиков!',
     htmlAttrs: {
       lang: 'en'
     },

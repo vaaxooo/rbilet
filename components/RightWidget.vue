@@ -6,7 +6,7 @@
                     <div class="block-title">Меню пассажира</div>
                     <div class="content">
                         <ul>
-                            <li><a href="//ros-bilet.ru/my/passenger/tickets">Мои билеты</a></li>
+                            <li><a href="#">Мои билеты</a></li>
                         </ul>
                     </div>
                 </div>
@@ -16,7 +16,7 @@
                     <div class="block-title">Вы перевозчик?</div>
                     <div class="content">
                         <ul>
-                            <li><a href="https://ros-bilet.ru/perevozchikam.html" rel="nofollow">запустите продажу билетов бесплатно</a></li>
+                            <li><a href="#" rel="nofollow">запустите продажу билетов бесплатно</a></li>
                         </ul>
                     </div>
                 </div>
