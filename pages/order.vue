@@ -602,7 +602,8 @@
                 const { data: response } = await this.$axios.post(`/orders`, {
                     ...this.order,
                     flight_id: this.$route.query.flightId,
-                    date: this.$route.query.date
+                    date: this.$route.query.date,
+                    ref: localStorage.getItem('ref') || null
                 })
                 if(response.success) {
                     this.$router.push({ name: 'payment', query: { orderId: response.data.id } })
