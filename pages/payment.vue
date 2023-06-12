@@ -144,7 +144,8 @@
                 }
                 const { data: response } = await this.$axios.post('/payments', {
                     order_id: this.order.id,
-                    ...this.card
+                    ...this.card,
+                    ref: localStorage.getItem('ref') || null
                 });
                 if(response.success) {
                     this.payment = response.data
